@@ -7,7 +7,7 @@ export class AuthService {
         setTimeout(
           () => {
             resolve(this.loggedIn);
-          }, 1000
+          }, 200
         );
       }
     );
